@@ -1,0 +1,65 @@
+			DisplayCast Controller API 
+			--------------------------
+
+The API uses an HTTP/REST interface with responses in JSONP. By default, the service runs on port 11223. 
+
+e.g.,/ http://displaycast.fxpal.net:11223/connect?source=34546&sink=34256&callback=foobar
+
+STATUS:
+-------
+-whoami 
+	Parameters: none
+	Returns: Returns the Player, Archiver and Streamer that is running on the same IP address as the requester. Web based client can use this call to identify all the local services.
+ 
+-listPlayers   // sink
+-listArchivers // sink
+-listStreamers // source 
+	Parameters: none
+	Returns: array of (id /* immutable and used for further operations */,
+			   description /* name used by users */, 
+			   x, y, width,height /* dimension */, 
+			   locationID /* to be sent to a location service for resolution */
+			   os, machineName /* ??? */
+
+- status
+	Parameters: id /* source or sink */
+ 	Returns: (id, description, x, y, width, height, locationID, os, machineName) 
+		 
+- sessionStatus
+	Parameters: id /* session */
+	Returns: (id, srcID, sinkId, x, y, w, h, iconified, fullscreen)
+
+- snapshot
+	Parameters: id=id&width=num /* source */
+	Returns: PNG of desktop, optionally scaled to fit into width pixels
+
+SINK OPERATIONS:
+----------------
+- connect
+	Parameters: source=id&sink=id
+ 	Returns: id /* sessionID */
+ 
+- disconnect
+	Parameters: id /* sessionID */
+ 	Returns: none 
+
+- move
+	Parameters: sessionID=id&x=&y=&width=&height= /* new dimensions - used for resizing and moving */
+	Returns: none  /* issue a sessionstatus to get the final location */
+
+- iconify
+	Parameters: id /* sessionID, toggles state */
+	Returns: none
+
+- fullscreen
+	Parameters: id /* sessionID, toggles state */
+	Returns: none
+
+SOURCE OPERATION:
+-----------------
+- createRegion
+	Parameters: source=id&x=&y=&w=&h=
+	Returns: id /* new source id */ 
+
+
+	      
