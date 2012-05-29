@@ -1,5 +1,0 @@
-C:\Users\chandra\Desktop\DC\Location\Location\bin\Debug\Location.dll
-C:\Users\chandra\Desktop\DC\Location\Location\bin\Debug\Location.pdb
-C:\Users\chandra\Desktop\DC\Location\Location\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\chandra\Desktop\DC\Location\Location\obj\Debug\Location.dll
-C:\Users\chandra\Desktop\DC\Location\Location\obj\Debug\Location.pdb

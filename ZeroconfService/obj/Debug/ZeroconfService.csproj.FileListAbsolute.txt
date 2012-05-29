@@ -1,5 +1,0 @@
-C:\Users\chandra\Desktop\DC\ZeroconfService\bin\Debug\ZeroconfService.dll
-C:\Users\chandra\Desktop\DC\ZeroconfService\bin\Debug\ZeroconfService.pdb
-C:\Users\chandra\Desktop\DC\ZeroconfService\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\chandra\Desktop\DC\ZeroconfService\obj\Debug\ZeroconfService.dll
-C:\Users\chandra\Desktop\DC\ZeroconfService\obj\Debug\ZeroconfService.pdb
