@@ -1,0 +1,8 @@
+C:\Users\chandra\Desktop\DC\Shared\bin\Release\Shared.dll
+C:\Users\chandra\Desktop\DC\Shared\bin\Release\Shared.pdb
+C:\Users\chandra\Desktop\DC\Shared\bin\Release\ZeroconfService.dll
+C:\Users\chandra\Desktop\DC\Shared\bin\Release\ZeroconfService.pdb
+C:\Users\chandra\Desktop\DC\Shared\bin\Release\ZeroconfService.xml
+C:\Users\chandra\Desktop\DC\Shared\obj\Release\ResolveAssemblyReference.cache
+C:\Users\chandra\Desktop\DC\Shared\obj\Release\Shared.dll
+C:\Users\chandra\Desktop\DC\Shared\obj\Release\Shared.pdb

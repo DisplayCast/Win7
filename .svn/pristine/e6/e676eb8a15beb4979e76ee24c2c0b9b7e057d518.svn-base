@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace FXPAL.DisplayCast.ControlAPI {
+    // Responses sent to end users as JSON objects
+    class JSONSrcSink {
+        public String id;           // Immutable ID. 
+        public String description;         // User defined name. Names are used by users and can change at any time 
+        public int x, y, width, height; // Dimensions in pixels
+        public String locationID;   // Must be sent to the location server for resolution
+
+        public String os;           // Just in case
+        public String machineName;  // Just in case
+        public String userName;     // User name for better sorting of Streamers
+        public String nearBy;       // Currently uses BlueTooth to locate nearby players
+        // public Double version;      // Make sure that we are talking to the right person
+        // public int imagePort;
+    }
+
+    class JSONSession {
+        public String id;       // Immutable ID.
+        public String srcId;    // JSONSrcSrink.id
+        public String sinkId;   // JSONSrcSrink.id
+        public int x, y, width, height;  // Location on sink
+        public int iconified; // window state
+        public int fullScreen; // window state
+    }
+
+    class JSONnewSession {
+        public String id;       // Immutable ID.
+    }
+
+    class JSONstatus {
+        public String result;
+    }
+}

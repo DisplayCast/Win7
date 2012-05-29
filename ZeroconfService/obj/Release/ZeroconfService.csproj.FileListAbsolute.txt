@@ -1,0 +1,5 @@
+C:\Users\chandra\Desktop\DC\ZeroconfService\bin\Release\ZeroconfService.dll
+C:\Users\chandra\Desktop\DC\ZeroconfService\bin\Release\ZeroconfService.pdb
+C:\Users\chandra\Desktop\DC\ZeroconfService\obj\Release\ResolveAssemblyReference.cache
+C:\Users\chandra\Desktop\DC\ZeroconfService\obj\Release\ZeroconfService.dll
+C:\Users\chandra\Desktop\DC\ZeroconfService\obj\Release\ZeroconfService.pdb

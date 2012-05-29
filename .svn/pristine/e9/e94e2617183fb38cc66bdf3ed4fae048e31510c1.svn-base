@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Collections;
+
+namespace ZeroconfService {
+    public static class DisplayCast {
+        public const String STREAMER = "_dc-streamer._tcp";
+        public const string ARCHIVER = "_dc-archiver._tcp";
+        public const string PLAYER = "_dc-player._tcp";
+        public const string DOMAIN = "";
+
+        public const float DISPLAYCAST_VERSION = 1.0F;
+
+        // public static ArrayList memPool = null;
+    }
+}
