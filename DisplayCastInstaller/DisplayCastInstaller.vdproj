@@ -34,13 +34,13 @@
         "Entry"
         {
         "MsmKey" = "8:_2FF2114F325EC3F04D0AE88813BBD336"
-        "OwnerKey" = "8:_8C042D5BCF8946618654A0D82BA97746"
+        "OwnerKey" = "8:_AC6EC1B377084B378AF3F12CC949AF1F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_2FF2114F325EC3F04D0AE88813BBD336"
-        "OwnerKey" = "8:_AC6EC1B377084B378AF3F12CC949AF1F"
+        "OwnerKey" = "8:_8C042D5BCF8946618654A0D82BA97746"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -148,43 +148,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0F9AAA1AA70B4CFC994F7CBFCCE04C53"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_997A48C274F6757E2595B2C159B470BD"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_DE526A39CEEDB0E3CA51AA5930EBD1F7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7565FE54D709CBC886ABD8DC245DF76F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_DF2D7C6837824EEF9628BED245EB99A7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2FF2114F325EC3F04D0AE88813BBD336"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8C042D5BCF8946618654A0D82BA97746"
+        "OwnerKey" = "8:_AC6EC1B377084B378AF3F12CC949AF1F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -196,7 +160,43 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_AC6EC1B377084B378AF3F12CC949AF1F"
+        "OwnerKey" = "8:_8C042D5BCF8946618654A0D82BA97746"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_2FF2114F325EC3F04D0AE88813BBD336"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_DF2D7C6837824EEF9628BED245EB99A7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_7565FE54D709CBC886ABD8DC245DF76F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_DE526A39CEEDB0E3CA51AA5930EBD1F7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_997A48C274F6757E2595B2C159B470BD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_0F9AAA1AA70B4CFC994F7CBFCCE04C53"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -244,7 +244,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:\\\\data2\\software\\DisplayCast\\Win7\\DisplayCastInstaller.msi"
+        "OutputFilename" = "8:..\\Installers\\DisplayCast\\DisplayCastInstaller.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
