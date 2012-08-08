@@ -34,13 +34,13 @@
         "Entry"
         {
         "MsmKey" = "8:_2FF2114F325EC3F04D0AE88813BBD336"
-        "OwnerKey" = "8:_8C042D5BCF8946618654A0D82BA97746"
+        "OwnerKey" = "8:_AC6EC1B377084B378AF3F12CC949AF1F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_2FF2114F325EC3F04D0AE88813BBD336"
-        "OwnerKey" = "8:_AC6EC1B377084B378AF3F12CC949AF1F"
+        "OwnerKey" = "8:_8C042D5BCF8946618654A0D82BA97746"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -148,43 +148,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0F9AAA1AA70B4CFC994F7CBFCCE04C53"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_997A48C274F6757E2595B2C159B470BD"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_DE526A39CEEDB0E3CA51AA5930EBD1F7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7565FE54D709CBC886ABD8DC245DF76F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_DF2D7C6837824EEF9628BED245EB99A7"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2FF2114F325EC3F04D0AE88813BBD336"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8C042D5BCF8946618654A0D82BA97746"
+        "OwnerKey" = "8:_AC6EC1B377084B378AF3F12CC949AF1F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -196,7 +160,43 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_AC6EC1B377084B378AF3F12CC949AF1F"
+        "OwnerKey" = "8:_8C042D5BCF8946618654A0D82BA97746"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_2FF2114F325EC3F04D0AE88813BBD336"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_DF2D7C6837824EEF9628BED245EB99A7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_7565FE54D709CBC886ABD8DC245DF76F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_DE526A39CEEDB0E3CA51AA5930EBD1F7"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_997A48C274F6757E2595B2C159B470BD"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_0F9AAA1AA70B4CFC994F7CBFCCE04C53"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -420,9 +420,14 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:InTheHand.Net.Personal, Version=3.4.429.0, Culture=neutral, PublicKeyToken=ea38caa273134499, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:InTheHand.Net.Personal, Version=3.5.605.0, Culture=neutral, PublicKeyToken=ea38caa273134499, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_997A48C274F6757E2595B2C159B470BD"
+                    {
+                    "Name" = "8:InTheHand.Net.Personal.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:InTheHand.Net.Personal.dll"
             "TargetName" = "8:"
@@ -687,15 +692,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:DisplayCast"
-        "ProductCode" = "8:{D3F44633-058A-44EB-B645-E53EB895C188}"
-        "PackageCode" = "8:{8350C7D8-ECAB-483F-8442-A517A89DE631}"
+        "ProductCode" = "8:{6D43A909-53AC-4242-8556-786EDABA00EE}"
+        "PackageCode" = "8:{870F3D56-96CD-48D0-887B-48EB918868EF}"
         "UpgradeCode" = "8:{C630DE41-3538-4262-8025-4ECA149437F1}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.1.5"
+        "ProductVersion" = "8:1.1.6"
         "Manufacturer" = "8:FX Palo Alto Laboratory Inc."
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:http://www.fxpal.com/?p=DisplayCast"

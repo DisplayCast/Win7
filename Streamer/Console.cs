@@ -523,7 +523,19 @@ namespace FXPAL.DisplayCast.Streamer {
         /// <param name="sender"></param>
         /// <param name="e"></param>
         static private void discoverComplete(object sender, DiscoverDevicesEventArgs e) {
-            BluetoothDeviceInfo[] devices = e.Devices;
+            BluetoothDeviceInfo[] devices;
+
+            try {
+                devices = e.Devices;
+            } catch (Exception ex) {
+                // I was getting a reflection invocation exception. WTF!!
+
+                BluetoothComponent bt = (BluetoothComponent)sender;
+                // bt.DiscoverDevicesComplete += new EventHandler<DiscoverDevicesEventArgs>(discoverComplete);
+                bt.DiscoverDevicesAsync(100, true, true, true, true, null);
+
+                return;
+            }
 
             foreach (MenuItem menu in playersItem.MenuItems) {
                 if (menu == null)
@@ -534,7 +546,7 @@ namespace FXPAL.DisplayCast.Streamer {
             }
 
             try {
-                foreach (BluetoothDeviceInfo device in e.Devices) {
+                foreach (BluetoothDeviceInfo device in devices) {
                     string addr = device.DeviceAddress.ToString("C").Replace(":", "-").ToLower();
 
                     foreach (MenuItem menu in playersItem.MenuItems) {
@@ -569,6 +581,7 @@ namespace FXPAL.DisplayCast.Streamer {
                 }
 
                 BluetoothComponent bt = (BluetoothComponent)sender;
+                // bt.DiscoverDevicesComplete += new EventHandler<DiscoverDevicesEventArgs>(discoverComplete);
                 bt.DiscoverDevicesAsync(100, true, true, true, true, null);
             } catch {
             }
